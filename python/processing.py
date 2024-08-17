@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 # Establish the connection
-engine = create_engine('postgresql://postgres:3884@localhost:5432/Tableau')
+engine = create_engine('postgresql://postgres:pass@localhost:5432/Tableau')
 
 # Define your queries and corresponding file names
 queries = [
